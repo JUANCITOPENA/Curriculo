@@ -80,7 +80,7 @@ h3 .diplomas {
 }
 
 #perfil {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .profesion {
@@ -91,7 +91,7 @@ h3 .diplomas {
 }
 
 .panel {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 12px;
 }
 
@@ -119,9 +119,9 @@ Inicio del Skill de Habilidades Tecnologicas
 */
 
 .contentContainer {
-    /* background: #efefef; */
+    background: #efefef;
     padding: 10px;
-    max-width: 350px;
+    max-width: 300px;
     min-width: 150px;
     margin: 2vh auto;
     border-radius: 10px;
@@ -134,8 +134,7 @@ Inicio del Skill de Habilidades Tecnologicas
 }
 
 .progressBar h4 {
-    font-size: 10px;
-    font-size: 1.33em;
+    font-size: 14px;
     text-transform: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -145,11 +144,12 @@ Inicio del Skill de Habilidades Tecnologicas
 
 .progressBarContainer {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     height: 10px;
     height: 1.06em;
     background: black;
-    background: rgba(8, 102, 220, 0.2);
+    /* background: rgba(8, 102, 220, 0.2); */
+    background: #c8d6e5;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -158,10 +158,11 @@ Inicio del Skill de Habilidades Tecnologicas
     height: 1.06em;
     float: left;
     background: #badc58;
-    background: #4caf50;
+    background: #0652DD;
 }
 
-.value-00 {
+
+/* .value-00 {
     width: 0;
 }
 
@@ -172,6 +173,7 @@ Inicio del Skill de Habilidades Tecnologicas
 .value-20 {
     width: 20%;
 }
+*/
 
 .value-30 {
     width: 30%;
@@ -209,20 +211,20 @@ Inicio del Skill de Habilidades Tecnologicas
     width: 80%;
 }
 
-.value-90 {
-    width: 90%;
-}
-
-.value-100 {
-    width: 100%;
-}
-
 .value-85 {
     width: 85%;
 }
 
-.value-80 {
-    width: 80%;
+.value-90 {
+    width: 55%;
+}
+
+.value-95 {
+    width: 55%;
+}
+
+.value-100 {
+    width: 55%;
 }
 
 
@@ -253,11 +255,13 @@ Fin Skill de Habilidades Tecnologicas
     border-radius: 15px;
 }
 
-.pie {
+.footer {
     background: white;
     color: white;
     grid-area: footer;
     text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
 }
 
 
@@ -301,7 +305,7 @@ a {
     background-color: #ffda79;
     text-align: justify;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .panel {
@@ -325,7 +329,7 @@ a {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 20px;
+    font-size: 14px;
     transition: 0.4s;
     border-radius: 5px;
 }
@@ -420,57 +424,6 @@ a {
 /*Fin Efectos Redes Sociales e Iconos*/
 
 
-/*Efectos Respondive para 600px*/
-
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-    .Experiencia {
-        padding: 10px;
-        background-color: #fbc531;
-        text-align: center;
-    }
-    ul li {
-        padding-top: 10px;
-        list-style: none;
-        padding-bottom: 12px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .Experiencia {
-        padding: 10px;
-        background-color: #faa43d;
-        text-align: center;
-    }
-    ul li {
-        padding-top: 10px;
-        list-style: none;
-        padding-bottom: 12px;
-        text-align: center;
-    }
-}
-
-
 /* Para el Ejecto de Acordeon*/
 
 .accordion {
@@ -522,6 +475,93 @@ a {
 }
 
 
+/*Efectos Respondive para 600px*/
+
+@media screen and (max-width: 600px) {
+    .header h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .Experiencia {
+        padding: 10px;
+        background-color: #fbc531;
+        text-align: center;
+    }
+    ul li {
+        padding-top: 10px;
+        list-style: none;
+        padding-bottom: 12px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    .contenedor .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .Experiencia {
+        padding: 10px;
+        background-color: #faa43d;
+        text-align: center;
+    }
+    ul li {
+        padding-top: 10px;
+        list-style: none;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .contenedor .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+}
+
+
 /*Fin Efectos Respondive para 600px*/
 
 
@@ -530,6 +570,21 @@ a {
 @media screen and (max-width: 768px) {
     .contenedor {
         grid-template-areas: "header header header" "nav nav nav" "contenido contenido contenido" "sidebar sidebar sidebar" "widget-1 widget-1 widget-2" "footer footer footer";
+    }
+    .contenedor .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .footer {
+        background: white;
+        color: white;
+        grid-area: footer;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 12px;
     }
 }
 
