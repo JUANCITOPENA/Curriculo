@@ -6,6 +6,6 @@ Curriculo en HTML, Javascript y CSS GRID
 
 ![](CV-.png)
 
-" URL: https://juancitopena.github.io/Buscar_Movies_OMDb_API/"
+" URL:https://juancitopena.github.io/Curriculo/"
 
 
