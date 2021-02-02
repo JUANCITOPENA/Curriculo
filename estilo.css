@@ -43,7 +43,7 @@ body {
 }
 
 .contenedor .nav {
-    background: #ffda79;
+    background: #fbc531;
     color: #fff;
     grid-area: nav;
     border-radius: 15px;
@@ -302,7 +302,7 @@ a {
 
 .Experiencia {
     padding: 10px;
-    background-color: #ffda79;
+    background-color: #fbc531;
     text-align: justify;
     border-radius: 10px;
     font-size: 18px;
