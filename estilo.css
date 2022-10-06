@@ -85,7 +85,7 @@ h3 .diplomas {
     font-size: 16px;
     padding: 10px;
     margin: 5px;
-    
+    text-align: center;  
 }
 
 .profesion {
@@ -118,7 +118,6 @@ ul li {
     grid-area: sidebar;
     border-radius: 15px;
 }
-
 
 /*
 Inicio del Skill de Habilidades Tecnologicas
@@ -326,7 +325,6 @@ a {
     border-radius: 5px;
 }
 
-
 /*
 .widget-1 img{
   width: 100px;
@@ -343,7 +341,6 @@ a {
 }
 
 */
-
 
 /*Efectos Redes Sociales e Iconos*/
 
@@ -375,7 +372,6 @@ a {
     font-size: 52px;
     color: #ff9ff3;
 }
-
 
 /*Efectos Redes Sociales e Iconos*/
 
@@ -414,9 +410,7 @@ a {
     color: black;
 }
 
-
 /*Fin Efectos Redes Sociales e Iconos*/
-
 
 /* Para el Ejecto de Acordeon*/
 
